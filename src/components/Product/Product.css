@@ -27,8 +27,9 @@
 
 .product-info {
     height: 100px;
-    width: 100%;
-    margin-left: 20px;
+    width: 90%;
+    margin-bottom: 15px;
+    
 }
 
 .product-rating {
@@ -41,5 +42,9 @@
     border: 1px solid;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
-    margin-bottom: 15px;
+    margin: 15px;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 13px;
+    width: 95%;
 }

@@ -31,13 +31,13 @@ function Header() {
             </div>
 
             <div className='header-nav'>
-                <Link  to={!user && '/login'}>
+                <Link to={!user && "/login"} className='link' >
                 <div onClick={handleAuthentication} className='header-option'>
                     <span className='header-optionLineOne'>
-                    Hello, {user?.email}
+                    Hello, {!user?"Guest": user.email}
                     </span>
                     <span className='header-optionLineTwo'>
-                        {user ? 'Sign out' : 'Sign In'}
+                        {user ? "Sign out" : "Sign In"}
                     </span>                    
                 </div>
                 </Link>
@@ -58,12 +58,12 @@ function Header() {
                     </span>
                 </div>
                 
-                <Link to='/checkout'>
+                <Link to='/checkout' className='link'>
                     <div className='header-optionBasket'>
                     <ShoppingBasketIcon />
                     <span className='header-optionLineTwo header-basketCount'>{basket?.length}
                     </span>
-                </div>
+                    </div>
                 </Link>
 
             </div>

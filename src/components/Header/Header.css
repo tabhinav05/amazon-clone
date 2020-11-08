@@ -46,6 +46,7 @@
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+    cursor: pointer;
 }
 
 .header-optionLineOne {
@@ -68,4 +69,10 @@
 .header-basketCount {
     margin-left: 5px;
     margin-right: 5px;
+    color: #cd9042;
+
+}
+
+.link {
+    text-decoration: none;
 }

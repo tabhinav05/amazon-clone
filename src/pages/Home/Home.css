@@ -18,3 +18,10 @@
     margin-bottom: -150px;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
+
+.poster-img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: contain;
+    margin: 15px;
+}
